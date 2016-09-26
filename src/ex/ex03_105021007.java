@@ -4,14 +4,23 @@ package ex;
  * 	每半小時40元，超過4小時以上的部份，每半小時60元，未滿半小時部分不計費。
  * 	如果您從早上10點23分停到下午3點20分，請撰寫程式計算共需繳交的停車費。
  * Date: 2016/09/26
- * Author: 1050210XX 周永振老師
+ * Author: 105021007 陳麒安
  */
-
-public class ex03_1050210XX {
+import java.util.Scanner;
+public class ex03_105021007 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		int t =297;
+		int d=0;
+		if(t<=120){System.out.print(t*30);}
+		else{if(t<=240){System.out.print(t*40);}
+		else{if(t>=240){System.out.print(t*60);}
+		else{System.out.print(t*0);}}}
+		}
+		
+		
 	}
 
-}
+
