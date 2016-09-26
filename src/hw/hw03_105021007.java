@@ -9,7 +9,10 @@ public class hw03_105021007 {
 		Scanner scn=new Scanner(System.in);
 		System.out.print("請輸入4位數");
 		int year=scn.nextInt();
-		
+		float root=year%400;
+		if(year<=1000){System.out.print("請輸入4位數謝謝");}else{if(root==0){System.out.print("是閏年");}
+		else{if(root!=0){System.out.print("不是閏年");}}
+		}
 		
 		
 		
