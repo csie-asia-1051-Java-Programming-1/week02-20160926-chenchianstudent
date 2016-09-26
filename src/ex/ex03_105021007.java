@@ -14,9 +14,9 @@ public class ex03_105021007 {
 		Scanner scn=new Scanner(System.in);
 		int t =297;
 		int d=0;
-		if(t<=120){System.out.print(t*30/30);}
-		else{if(t<=240){System.out.print(t*40/30);}
-		else{if(t>=240){System.out.print(t*60/30);}
+		if(t<=120){System.out.print(t/30*30);}
+		else{if(t<=240){System.out.print(4*30+(t-120)/30*40);}
+		else{if(t>=240){System.out.print(4*30+(t-120)/30*40+(t-240)/30*60);}
 		else{System.out.print(t*0);}}}
 		}
 		
