@@ -9,6 +9,26 @@ public class hw01_105021007 {
 		//板數目最少。(先輸入媽媽給小明多少錢，N，接著輸入a1, a2, a3 ， 在此n, a1, a2, a3為整數，且a1*15+ a2*20+ a3*30小於或等於N。
 		//列出共找小明多少個1元，5元及50元，若帶的錢不夠買水果，則顯示”0”)
 Scanner scn=new Scanner(System.in);
+System.out.print("小明有幾個1塊");
+int m1=scn.nextInt();
+System.out.print("小明有幾個5塊");
+int m5=scn.nextInt();
+System.out.print("小明有幾個50塊");
+int m50=scn.nextInt();
+System.out.print("蘋果買了");
+int a1=scn.nextInt();
+System.out.print("柳丁買了");
+int a2=scn.nextInt();
+System.out.print("桃子買了");
+int a3=scn.nextInt();
+
+int price=a1*15+ a2*20+ a3*30;
+int allmoney=m1*1+m5*5+m50*50;
+if(price>=allmoney){System.out.print("不符合");}
+int findmoney=allmoney-price;
+System.out.println("找的50元有"+findmoney/50);
+System.out.println("找的5元有"+(findmoney-(findmoney/50)*50)/5);
+System.out.println("找的1元有"+findmoney%5);
 
 	}
 
