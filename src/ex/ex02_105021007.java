@@ -16,10 +16,12 @@ System.out.print("x=");
 int x=scn.nextInt();
 System.out.print("y=");
 int y=scn.nextInt();
-double c=Math.pow(2,x);
-double d=Math.pow(2,y);
-double e=c-d;
-double g=Math.log(e);
+double c=x-0;
+double c1=Math.pow(c,2);
+double d=y-0;
+double d1=Math.pow(d,2);
+double e=c1-d1;
+double g=Math.pow(1/2,e);
 
 
 
@@ -28,11 +30,13 @@ double g=Math.log(e);
 
 
 
-if(g<=100){System.out.print("yes");}else{System.out.print("no");}
+if(g>=100){System.out.print("yes");}
+else{System.out.print("no");}
+}
 
 
 
 
-	}
+	
 
 }

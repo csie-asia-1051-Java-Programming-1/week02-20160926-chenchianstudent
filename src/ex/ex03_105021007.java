@@ -6,14 +6,11 @@ package ex;
  * Date: 2016/09/26
  * Author: 105021007 陳麒安
  */
-import java.util.Scanner;
 public class ex03_105021007 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scn=new Scanner(System.in);
 		int t =297;
-		int d=0;
 		if(t<=120){System.out.print(t/30*30);}
 		else{if(t<=240){System.out.print(4*30+(t-120)/30*40);}
 		else{if(t>=240){System.out.print(4*30+(t-120)/30*40+(t-240)/30*60);}

@@ -14,7 +14,6 @@ public class ex01_105021007 {
 		Scanner scn=new Scanner(System.in);
 		System.out.print("t=");
 		int t=scn.nextInt();
-		int d=0;
 		float p=0.5f;
 		if(t<=600){System.out.print(p*t);}else{if(t<=1200){System.out.print(t*p*0.9);}else{System.out.print(t*p*0.79);}}
 		
